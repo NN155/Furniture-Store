@@ -1,0 +1,24 @@
+@import "../../containers/app/root.css";
+
+.btn-default {
+    padding: 10px 20px;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid var(--gold-color);
+
+  }
+  
+  .btn-filled {
+    background-color:  var(--gold-color);
+  }
+  
+  .btn-filled:hover {
+    transition: all 0.2s;
+    background-color: var(--dark-gold-color);
+  }
+  
+  .btn-transparent {
+    background-color: transparent;
+  }

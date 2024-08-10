@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import "root.css";
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-22 {
+  font-size: 22px;
+}
+.fz-26 {
+  font-size: 26px;
+}
+
+.fz-30 {
+  font-size: 30px;
+}
+.fz-40 {
+  font-size: 40px;
+}
+
+.fz-76 {
+  font-size: 76px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.ff-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ff-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-white {
+  color: var(--white-color);;
+}
+
+.color-black {
+  color: var(--black-color);;
+}
+
+.color-gray {
+  color: var(--gray-color);;
+}
+
+.color-gold {
+  color: var(--gold-color);;
+}
+
+.text-shadow {
+  text-shadow: #0006 0px 3px 3px;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.me-5 {
+  margin-right: 5em;
+}
+
+.ms-5 {
+  margin-left: 5em;
+}
