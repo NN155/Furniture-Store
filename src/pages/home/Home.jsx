@@ -1,13 +1,13 @@
 import React from "react";
-import "./Home.css";
-import Header from "./Header";
-import Product from "./Product";
+import { Header, Product, Footer, AboutUs } from "./sections";
 
 export function Home() {
   return (
     <>
       <Header />
+      {/* <AboutUs /> */}
       <Product />
+      <Footer />
     </>
   );
 }

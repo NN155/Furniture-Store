@@ -1,5 +1,4 @@
 import React from "react";
-import "./Card.css";
 import { Stars } from "..";
 import { Button } from "..";
 
@@ -27,13 +26,13 @@ export function Card({ imgSrc, description, price, title, rating, className="", 
                     </div>
                 </div>
                 <div className="bottom">
-                    <div className="title ff-roboto color-black">{title}</div>
+                    <div className="title ff-roboto fz-24 fw-500 color-black">{title}</div>
                 </div>
             </div>
             <Stars rating={rating} className="fz-22" style={{ color: "#FFC600" }} />
             <div className="fz-26 fw-bold ff-roboto color-black text-center mt-2">{price}</div>
             <div className="description text-center ff-roboto color-gray mt-2">{description}</div>
-            <Button className="fz-18 fw-bold ff-roboto color-black mt-2 hover" isFilled={isHovered}>Add to cart</Button>
+            <Button className="fz-18 fw-bold ff-montserrat color-black mt-2 hover" isFilled={isHovered}>Add to cart</Button>
         </div>
     );
 }
