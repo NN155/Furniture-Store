@@ -1,9 +1,27 @@
-/* 
-.container {
-    margin: 5em;
-    background-color: var(--gold-color);
-
+.about-us {
+    margin: 80px;
 }
-.container::after {
-    opacity: 0.1;
-} */
+.about-us .container {
+    background-color: rgba($gold-color, 0.1);
+    border-radius: 50px;
+    padding-right: auto;
+    max-width: 1600px;
+    padding: 2em;
+}
+
+.about-us-chair {
+    position: absolute;
+    left: 400px;
+    bottom: 10px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .about-us-chair {
+        display: none;
+    }
+    .about-us {
+        margin: 40px;
+    }
+}
+    

@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-@function rgba-color($color, $alpha) {
-  @return rgba($color, $alpha);
-}
-
 $white-color: #fff;
 $black-color: #34383D;
 $gray-color: rgba($black-color, 0.8);
@@ -101,5 +96,5 @@ $dark-gold-color: darken($gold-color, 5%);
   right: 0;
   bottom: -5px;
   height: 2px;
-  background-color: var(--gold-color);
+  background-color: $gold-color;
 }

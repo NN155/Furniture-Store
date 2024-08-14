@@ -5,7 +5,7 @@ export function Home() {
   return (
     <>
       <Header />
-      {/* <AboutUs /> */}
+      <AboutUs />
       <Product />
       <Footer />
     </>
