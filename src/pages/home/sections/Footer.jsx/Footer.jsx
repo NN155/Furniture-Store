@@ -6,7 +6,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaPin
 export function Footer() {
   return (
     <footer>
-      <div className="footer-top ff-roboto">
+      <div className="footer-top ff-roboto section-padding">
         <div className="container">
           <div className="row">
             <div className="left-side col-lg-5 col-sm-12">
@@ -50,7 +50,7 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="footer-bottom gap-1">
+      <div className="footer-bottom gap-1 section-padding">
         <FaRegCopyright />
         <p className="mb-0 ff-roboto">All Rights Reserved</p>
       </div>

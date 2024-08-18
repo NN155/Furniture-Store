@@ -7,27 +7,31 @@ header {
     max-width: 1920px;
     margin: 0 auto;
     padding-top: 1em;
-    padding-left: 5em;
-    padding-right: 5em;
 }
 
-
-.nav-link.active.custom-underline {
-    position: relative;
+.header-top {
+    display: flex;
 }
 
-.nav-link.active.custom-underline::after {
-    content: '';
-    position: absolute;
-    left: 7px;
-    right: 10px;
-    bottom: -3px;
-    width: calc(100% - 15px);
-    height: 3px;
-    background-image: repeating-linear-gradient(to right,
-            $gold-color,
-            $gold-color 30px,
-            transparent 30px,
-            transparent 35px);
-    border-radius: 5px;
+.header-top .right-side {
+    display: flex;
+    margin-left: auto;
+    gap: 4px;
+    flex-direction: row;
+    padding: 0;
+
+}
+
+@media (max-width: 1200px) {
+    .header-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-top .right-side {
+        display: flex;
+        margin-left:0;
+        margin-top: 1em;
+        gap: 4px;
+        justify-content: start;
+    }
 }

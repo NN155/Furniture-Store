@@ -4,11 +4,11 @@ import { Button, SectionTitle } from "../../../../components";
 
 export function AboutUs() {
     return (
-        <section className="about-us">
+        <section className="about-us section-padding">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-sm-12 d-flex aligth-items-center justify-content-center">
-                        <img src={AboutUsBg}/>
+                        <img src={AboutUsBg} className="about-us-bg"/>
                     </div>
                     <div className="ps-0 position-relative col-lg-4 col-sm-12 d-flex flex-column justify-content-center">
                         <SectionTitle>About Us</SectionTitle>

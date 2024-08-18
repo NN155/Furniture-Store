@@ -4,7 +4,7 @@ import {img1, img2, img3, img4, img5} from "../../../../assets/images";
 
 export function Product() {
     return (
-        <section className="product">
+        <section className="product section-padding">
             <SectionTitle>What product we sell</SectionTitle>
             <h3 className="fz-22 ff-roboto color-gray">Find our best products faster, better and qualitier  product’s choices from us.</h3>
                 <div class="row d-flex aligth-items-center justify-content-center" style={{gap: "4em"}}>

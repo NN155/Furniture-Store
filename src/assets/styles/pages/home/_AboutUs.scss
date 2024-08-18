@@ -1,6 +1,8 @@
 .about-us {
-    margin: 80px;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
+
 .about-us .container {
     background-color: rgba($gold-color, 0.1);
     border-radius: 50px;
@@ -15,13 +17,15 @@
     bottom: 10px;
 }
 
+.about-us-bg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 @media screen and (max-width: 1600px) {
     .about-us-chair {
         display: none;
     }
-    .about-us {
-        margin: 40px;
-    }
 }
-    

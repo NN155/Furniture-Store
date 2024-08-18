@@ -98,3 +98,13 @@ $dark-gold-color: darken($gold-color, 5%);
   height: 2px;
   background-color: $gold-color;
 }
+
+.section-padding {
+  padding-inline: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-padding {
+    padding-inline: 20px;
+  }
+}
