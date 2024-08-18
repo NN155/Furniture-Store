@@ -31,20 +31,48 @@
     flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .navbar-toggler {
         display: block;
     }
     .navbar-nav {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        left: 0;
-        top: 0;
-        background-color: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(10px);
-        height: 100vh;
-        width: 200px;
-        padding-left: 1em;
+        display: none;
     }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+
+.navbar-side {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 200px;
+    padding-left: 1em;
+    left: -200px;
+    transition: left 0.3s ease;
+    z-index:1001;
+}
+
+.navbar-side.open {
+    left: 0;
+}
+
+.fixed-scroll {
+    overflow-y: scroll;
+    position: fixed;
+    width: 100%;
 }

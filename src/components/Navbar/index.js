@@ -1,10 +1,10 @@
-import navbar from './Navbar';
 import Nav  from './Nav';
 import Items from './Items';
+import Toggler from './Toggle';
 
 const Navbar = {};
-Navbar.Navbar = navbar;
 Navbar.Nav = Nav;
 Navbar.Items = Items;
+Navbar.Toggler = Toggler;
 
 export { Navbar };
